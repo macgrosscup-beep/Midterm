@@ -314,3 +314,115 @@ subset(results, (sample_size == 20 & sd %in% c(5, 10)) |
 # with the square root of the sample size, so it takes about four times as many
 # samples to match what halving the noise does. In practice, careful
 # measurement can save a lot of extra fieldwork.
+
+
+
+
+#REFERENCES: 
+# References ---------------------------------------------------------------
+
+# Literature
+
+# Del Vecchio, S., Fantinato, E., Silan, G., & Buffa, G. (2019). Trade-offs
+#   between sampling effort and data quality in habitat monitoring.
+#   Biodiversity and Conservation, 28, 55-73.
+#
+# Eisenlohr, P. V., et al. (2011). [add full reference from your source]
+#
+# Flowers, T. J., & Colmer, T. D. (2008). Salinity tolerance in halophytes.
+#   New Phytologist, 179, 945-963.
+#
+# Horton, ... (2008). [add full reference from your source]
+#
+# Keddy, P. A. (1992). Assembly and response rules: two goals for predictive
+#   community ecology. Journal of Vegetation Science, 3, 157-164.
+#
+# Kirwan, M. L., & Megonigal, J. P. (2013). Tidal wetland stability in the
+#   face of human impacts and sea-level rise. Nature, 504, 53-60.
+#
+# Maccioni, A., Canopoli, L., Cubeddu, V., Cucca, E., Dessena, S., Morittu, S.,
+#   Filigheddu, R., Padedda, B. M., & Farris, E. (2021). Gradients of salinity
+#   and plant community richness and diversity in two different Mediterranean
+#   coastal ecosystems in NW Sardinia. Biodiversity Data Journal, 9, e71247.
+#   https://doi.org/10.3897/BDJ.9.e71247
+#
+# Maitner, B. S., Halbritter, A. H., Telford, R. J., Strydom, T., Chacon, J.,
+#   Lamanna, C., Sloat, L. L., Kerkhoff, A. J., Messier, J., Rasmussen, N.,
+#   Pomati, F., Merz, E., Vandvik, V., & Enquist, B. J. (2023). Bootstrapping
+#   outperforms community-weighted approaches for estimating the shapes of
+#   phenotypic distributions. Methods in Ecology and Evolution, 14(10),
+#   2592-2610. https://doi.org/10.1111/2041-210X.14160
+#
+# Matinzadeh, Z., Lopez-Angulo, J., Escudero, A., Palacio, S., Abedi, M., &
+#   Akhani, H. (2022). Functional structure of plant communities along salinity
+#   gradients in Iranian salt marshes. Plant-Environment Interactions, 3,
+#   16-27. https://doi.org/10.1002/pei3.10070
+#
+# Munns, R., & Tester, M. (2008). Mechanisms of salinity tolerance. Annual
+#   Review of Plant Biology, 59, 651-681.
+#
+# Ogburn, R. M., & Edwards, E. J. (2012). Quantifying succulence: a rapid,
+#   physiologically meaningful metric of plant water storage. Plant, Cell and
+#   Environment, 35, 1533-1542. https://doi.org/10.1111/j.1365-3040.2012.02503.x
+#
+# Perez-Harguindeguy, N., et al. (2013). New handbook for standardised
+#   measurement of plant functional traits worldwide. Australian Journal of
+#   Botany, 61, 167-234.
+#
+# Perri, S., Detto, M., Porporato, A., & Molini, A. (2023). Salinity-induced
+#   limits to mangrove canopy height. Global Ecology and Biogeography, 32(9),
+#   1561-1574. https://doi.org/10.1111/geb.13720
+#
+# Perry, J. E., & Atkinson, R. B. (1997). Plant diversity along a salinity
+#   gradient of four marshes on the York and Pamunkey Rivers in Virginia.
+#   Castanea, 62, 112-118.
+#
+# Siefert, A., et al. (2015). A global meta-analysis of the relative extent of
+#   intraspecific trait variation in plant communities. Ecology Letters, 18,
+#   1406-1419.
+#
+# Tirgan, S., Naqinezhad, A., Moradi, H., Kazemi, Z., Vasefi, N., & Fenu, G.
+#   (2022). Caspian remnant coastal dunes: how do natural and anthropogenic
+#   factors impact on plant diversity and vegetation? Plant Biosystems, 156(6),
+#   1456-1469. https://doi.org/10.1080/11263504.2022.2065376
+#
+# Violle, C., Navas, M.-L., Vile, D., Kazakou, E., Fortunel, C., Hummel, I., &
+#   Garnier, E. (2007). Let the concept of trait be functional! Oikos, 116,
+#   882-892.
+#
+# Watson, E. B., & Byrne, R. (2009). Abundance and diversity of tidal marsh
+#   plants along the salinity gradient of the San Francisco Estuary:
+#   implications for global change ecology. Plant Ecology, 205, 113-128.
+#
+# Wright, I. J., et al. (2004). The worldwide leaf economics spectrum. Nature,
+#   428, 821-827.
+#
+# Yando, E. S., Osland, M. J., Willis, J. M., Day, R. H., Krauss, K. W., &
+#   Hester, M. W. (2016). Salt marsh-mangrove ecotones: using structural
+#   gradients to investigate the effects of woody plant encroachment on
+#   plant-soil interactions and ecosystem carbon pools. Journal of Ecology,
+#   104(4), 1020-1031. https://doi.org/10.1111/1365-2745.12571
+
+# R and R packages
+
+# R Core Team (2025). R: A Language and Environment for Statistical Computing.
+#   R Foundation for Statistical Computing, Vienna, Austria.
+#   https://www.R-project.org/
+#
+# Bolker, B., & R Development Core Team (2026). bbmle: Tools for General
+#   Maximum Likelihood Estimation. R package version 1.0.26.
+#   https://CRAN.R-project.org/package=bbmle
+#
+# Venables, W. N., & Ripley, B. D. (2002). Modern Applied Statistics with S
+#   (4th ed.). Springer, New York. (MASS package)
+#
+# Wickham, H. (2016). ggplot2: Elegant Graphics for Data Analysis.
+#   Springer-Verlag, New York.
+#
+# Wickham, H., & Bryan, J. (2026). readxl: Read Excel Files. R package
+#   version 1.5.0.1. https://CRAN.R-project.org/package=readxl
+#
+# Wickham, H., Hester, J., & Bryan, J. (2026). readr: Read Rectangular Text
+#   Data. R package version 2.2.0. https://CRAN.R-project.org/package=readr
+
+
