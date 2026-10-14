@@ -424,5 +424,5 @@ subset(results, (sample_size == 20 & sd %in% c(5, 10)) |
 #
 # Wickham, H., Hester, J., & Bryan, J. (2026). readr: Read Rectangular Text
 #   Data. R package version 2.2.0. https://CRAN.R-project.org/package=readr
-
+#
 
